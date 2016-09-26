@@ -164,3 +164,61 @@ n1=255
 n2=1000
 print(hex(n1))
 print(hex(n2))
+
+from functions import my_abs
+
+print(my_abs(-100))
+print(my_abs('1'))
+print(my_abs('dd'))
+
+import math
+from functions import move
+x, y = move(100, 100, 60, math.pi / 6)
+print(x, y)
+r =  move(100, 100, 60, math.pi / 6)
+print(r)
+from functions import quadratic
+print(quadratic(2,3,1))
+print(quadratic(1,3,-4))
+
+from functions import power
+print(power(5))
+print(power(5,2))
+print(power(5,3))
+
+from functions import add_end
+print(add_end())
+print(add_end())
+print(add_end())
+
+from functions import calc
+print(calc(1,2,3))
+print(calc(1,3,5,7))
+print(calc())
+print(calc(*[1,2,3]))
+
+from functions import person
+person('Michael',30)
+person('Bob', 35, city='Bejing')
+person('Adam', 45, gender ='M', job='Engineer')
+person('Jack',24, **{'city':'Beijing', 'job': 'Engineer'})
+
+from functions import f1
+from functions import f2
+
+f1(1,2)
+f1(1,2,c=3)
+f1(1,2,3,'a','b')
+f1(1,2,3,'a','b',x=99)
+f2(1,2,d=99,ext=None)
+args=(1,2,3)
+kw={'d':99, 'x':'#'}
+f1(*args,**kw)
+f2(*args,**kw)
+
+from functions import fact
+from functions import fact2
+print(fact(1))
+print(fact(5))
+print(fact(100))
+
