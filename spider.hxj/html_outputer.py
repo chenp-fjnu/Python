@@ -16,9 +16,8 @@ class HtmlOutputer(object):
         #ascii
         for data in self.datas:
             fout.write("<tr>")
-            fout.write("<td>%s</td>" % data['url'])
-            fout.write("<td>%s</td>" % data['title'])
-            fout.write("<td>%s</td>" % data['summary'])
+            fout.write("<td>%s</td>" % data['content_text'])
+            fout.write("<td>%s</td>" % data['content'])
             fout.write("</tr>")
         fout.write("</table>")
         fout.write("</body>")

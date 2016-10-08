@@ -26,7 +26,8 @@ class SpiderMain(object):
                     break
                 count = count + 1
             except:
-                print('craw failed')
+                e = sys.exc_info()
+                print("<p>Error: %s</p>" % e )
         self.outputer.output_html()
 
 if __name__=="__main__":
