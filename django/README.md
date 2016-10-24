@@ -18,6 +18,7 @@ python manage.py createsuperuser
 
 # Django Notes:
 template: https://docs.djangoproject.com/en/1.10/ref/templates/language/
+Avoiding race conditions:https://docs.djangoproject.com/en/1.10/ref/models/expressions/#avoiding-race-conditions-using-f
 shortcut
 
 TODO:
