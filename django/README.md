@@ -29,4 +29,4 @@ Test Coverage:
 https://docs.djangoproject.com/en/1.10/topics/testing/advanced/#topics-testing-code-coverage
 
 TODO:
-https://docs.djangoproject.com/en/1.10/intro/tutorial04/
+https://docs.djangoproject.com/en/1.10/intro/tutorial06/
