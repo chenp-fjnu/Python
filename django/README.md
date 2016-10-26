@@ -9,7 +9,7 @@ django-admin startproject mysite
 python manage.py startapp polls
 python manage.py migrate
 python manage.py makemigrations polls
-python manage.py sqlmigrate polls 0001
+python manage.py sqlmigrate polls
 python manage.py migrate
 
 python manage.py runserver
@@ -34,6 +34,8 @@ Testing tools:https://docs.djangoproject.com/en/1.10/topics/testing/tools/#djang
 //Django includes LiveServerTestCase to facilitate integration with tools like Selenium.
 
 Test Coverage:https://docs.djangoproject.com/en/1.10/topics/testing/advanced/#topics-testing-code-coverage
+
+ModelAdmin:https://docs.djangoproject.com/en/1.10/ref/contrib/admin/
 
 # TODO:
 https://docs.djangoproject.com/en/1.10/intro/tutorial06/
