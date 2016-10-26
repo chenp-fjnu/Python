@@ -20,6 +20,9 @@ python manage.py test app
 coverage run --source='.' manage.py test app
 
 python -c "import django; print(django.__path__)"
+
+pip install --user django-polls/dist/django-polls-0.1.zip
+pip uninstall django-polls
 ```
 # Django Notes:
 
