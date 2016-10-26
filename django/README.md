@@ -18,6 +18,8 @@ python manage.py shell
 python manage.py createsuperuser
 python manage.py test app
 coverage run --source='.' manage.py test app
+
+python -c "import django; print(django.__path__)"
 ```
 # Django Notes:
 
