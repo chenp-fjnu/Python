@@ -39,5 +39,6 @@ Test Coverage:https://docs.djangoproject.com/en/1.10/topics/testing/advanced/#to
 
 ModelAdmin:https://docs.djangoproject.com/en/1.10/ref/contrib/admin/
 
+Reuseable apps: https://docs.djangoproject.com/en/1.10/intro/reusable-apps/
 # TODO:
 https://docs.djangoproject.com/en/1.10/intro/tutorial06/
